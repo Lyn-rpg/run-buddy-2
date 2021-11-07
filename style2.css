@@ -8,8 +8,17 @@
   .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
+    background-size: cover ;
+    background-position: center;
   }
   /*hero style end */
+  
+  .hero-form{
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+  }
 
 header {
     padding: 20px 35px;

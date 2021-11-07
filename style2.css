@@ -4,6 +4,13 @@
     box-sizing: border-box;
   }
 
+  /*hero style start*/
+  .hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+  }
+  /*hero style end */
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -64,5 +71,5 @@ body {
   }
   section {
       padding: 60px;
-      background-image: url("../images/hero-bg.jpg");
+      background-image: url();
   }

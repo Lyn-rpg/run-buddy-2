@@ -12,8 +12,7 @@
   <!-- navigation-->
     <header>
      <h1>
-     <a href="/">
-       RUN BUDDY</a>
+     <a href="/">RUN BUDDY</a>
       </h1>
       <nav>
         <!--unordered list elements-->
@@ -41,33 +40,40 @@
         <div class="hero-cta">
           <h2>Start Building Habits</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac placerat leo. Proin eget ligula id lectus consectetur lobortis. Quisque augue est, pulvinar dapibus mi a, tempus consectetur magna. Morbi cursus metus lectus, tincidunt suscipit dolor malesuada posuere. Pellentesque ut tellus a sem egestas malesuada. Morbi cursus nibh ut erat facilisis lobortis. Nulla eu maximus risus, quis efficitur ante. Mauris gravida nisl non nisl tempor, ac viverra sapien tincidunt.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Suspendisse ac placerat leo. Proin eget 
+             ligula id lectus consectetur lobortis. 
+             Quisque augue est, pulvinar dapibus mi a, 
+             tempus consectetur magna. 
+             Morbi cursus metus lectus, tincidunt suscipit dolor 
+             malesuada posuere. 
+             Pellentesque ut tellus a sem egestas malesuada. 
           </p>
         </div>
         <div class="hero-form">
           <h3>Get Started Today</h3>
           <p>Fill out this form and one of out trainers will schedule a consult</p>
           <form>
-            <label for="name">Enter full name:</label>
-            <input type="text" placeholder="Your Name" name="name" id="name" />
+            <label for="name">Your Name:</label>
+            <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
            
-            <label for="email">Enter email address:</label>
-            <input type="text" placeholder="Email Address" name="email" id="email" />
+            <label for="email">Your Email:</label>
+            <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
             
-            <label for="phone">Enter a telephone number:</label>
-            <input type="text" placeholder="Phone Number" name="phone" id="phone"/>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
             <p>
               Have you worked out with a trainer before?
-              <input type="radio" name="trainer-confirm" id="trainer-yes" />
+             <input type="radio" name="trainer-confirm" id="trainer-yes" />
               <label for="trainer-yes">Yes</label>
               <input type="radio" name="trainer-confirm" id="trainer-no" />
               <label for="trainer-no">No</label>
+            
             </p>
             <p>
-              <label for="checkbox">
-                I acknowledge that I am at least 18 years of age.
-              </label>
-              <input type="checkbox" name="age-confirm" id="checkbox" />
+              <label for="checkbox">I acknowledge that I am at least 18 years of age.
+                </label>
+                <input type="checkbox" name="checkpoint1" id="checkbox" /> 
             </p>
             <button type="submit">
               Get running!
@@ -92,6 +98,7 @@
       </p>
       </div>
       </section>
+      <!--end "what we do" -->
           
        <!-- "what you do" section-->
       <section id="what-you-do" class="steps">
@@ -155,15 +162,15 @@
       </section>
           
       <!-- "meet the trainers" section-->
-      <section id="your-trainers" class="trainers">
+      <section id="your-trainers">
       <div class="flex-row">
       <h2 class="section-title primary-border" >
         Meet The Trainers
       </h2>
       </div>
 
-      <div class="trainer">
-        <article>
+      <div class="trainers">
+        <article class="trainer">
           <img src="./images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron"/>
            <div class="trainer-bio">
              <h3 class="trainer-name">Arron Stephens</h3>
@@ -173,11 +180,11 @@
              </p>
            </div>
         </article>
-        </div>
+        
          
         <!--second trainer bio-->
-        <div class="trainer">
-        <article>
+        
+        <article class="trainer">
           <img src="./images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" /> 
         <div class="trainer-bio">
          <h3 class="trainer-name">Joanna Gill</h3>
@@ -187,11 +194,11 @@
          </p>
         </div>
         </article>
-        </div>
+        
 
 <!--third trainer bio-->
-<div class="trainer" >
-<article>
+
+<article class="trainer">
 <img src="./images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights"/>
 <div class="trainer-bio">
   <h3 class="trainer-name">Harry "the Headband" Smith</h3>
@@ -202,6 +209,7 @@
 </div>
 </article>
 </div>
+
       </section>
           
       <!-- "reach out" section-->
@@ -243,28 +251,21 @@
             </form>
           </div>
 
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52898.848984800585!2d-118.28375622156356!3d34.03930326118528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c634253dfd01%3A0x26fe52df19a5a920!2sDowntown%20Los%20Angeles%2C%20Los%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1636351217846!5m2!1sen!2sus" 
-        width="400" 
-        height="400" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy">
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52898.848984800585!2d-118.28375622156356!3d34.03930326118528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c634253dfd01%3A0x26fe52df19a5a920!2sDowntown%20Los%20Angeles%2C%20Los%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1636351217846!5m2!1sen!2sus" 
+        frameborder="0" style="border:0;" allowfullscreen>
       </iframe>
-      
       </div>
-        
-        </div>
-  
       </section>
           
       <!-- footer-->
       <footer>
       <h2>❤️ Made with love by Run Buddy</h2>
       <div>
-        <a href="./privacy-policy.html#read-our-privacy-policy">Read Our Privacy Policy</a><br />
+        <a href="./privacy-policy.html">Read Our Privacy Policy</a><br />
         &copy; 2019 Run Buddy, Inc.
       </div>
-        
-      </footer>
+        </footer>
+        <!--end footer-->
       </body>
     </html>

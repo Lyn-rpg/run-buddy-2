@@ -171,23 +171,61 @@ header {
   .hero-form label  {
     margin: 0 5px;
   }
- 
- 
+
+  .hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+  } 
+ /* end hero */
+
+ /* section style start */
+
+ .section-title {
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+ font-size: 48px;
+ color: #024e76;
+ border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
+/* section style end */
+
+/* what we do */
+
+.intro p {
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  text-align: center;
+}
+ /* what we do end*/
  
 .flex-row {
   display: flex;
 }
  
 
- .intro p {
-   /* add this alongside your other declarations */
-   margin: 0 auto;
-   line-height: 1.7;
-   color: #39a6b2;
-   width: 80%;
-   font-size: 20px;
-   text-align: center;
- }
+ /*what you do styles*/
+
+ .steps {
+  background: #fce138;
+}
 
  .step {
   border-bottom: 1px solid #39a6b2;
@@ -199,16 +237,27 @@ header {
    justify-content: space-between;
  }
 
- .step:not(:last-child) {
-  border-bottom: 1px solid #39a6b2; ;
+
+ .step:last-child {
+  border-bottom: 1px solid #39a6b2; 
  }
 
+
+ .step h3 {
+  color: #024e76;
+  font-size: 46px;
+  flex: 1 30%;
+}
+
+
+
  .step-info {
-   flex: 2 70%;
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
- }
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 
  .step-img {
    flex: 1 12%;
@@ -223,9 +272,11 @@ header {
     flex: 12;
  }
 
- .steps {
-   background: #fce138;
- }
+ .step-text p {
+  color: #39a6b2;
+  font-size: 18px;
+}
+
 
  .step-text h4 {
    font-size: 26px;
@@ -233,35 +284,10 @@ header {
    color: #024e76;
  }
 
- .step h3 {
-   color: #024e76;
-   font-size: 46px;
-   flex: 1 30%;
- }
+ /* what you do styles end */
 
- .step-text p {
-   color: #39a6b2;
-   font-size: 18px;
- }
+ /* meet the trainers */
  
-
- .section-title {
-   padding-bottom: 20px;
-   text-align: center;
-   margin: 0 auto 35px auto;
-   width: 50%;
-  font-size: 48px;
-  color: #024e76;
-  border-bottom: 3px solid;
- }
-
- .primary-border {
-   border-color: #fce138;
- }
-
- .secondary-border {
-   border-color: #39a6b2;
- }
 
  .trainers {
    width: 100%;
@@ -302,29 +328,21 @@ header {
    font-size: 17px;
  }
 
- .text-left {
-   text-align: left;
- }
-
- .text-right {
-   text-align: right;
- }
+ /* trainer styles end */
 
 
-
- .section-title {
-   font-size: 55px;
-   display: inline-block;
-   padding: 0 100px 20px 100px;
-   border-bottom: 3px solid;
-   margin-bottom: 35px;
-   color: #024e76;
- }
 
  /* reach out styles start */
  .contact {
    background: #024e76;
  }
+
+ .contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 
  .contact h2 {
    color: #fce138;
@@ -340,6 +358,20 @@ header {
    color: white;
  }
 
+
+ .contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+
  .contact-info input,.contact-info textarea {
    background-color: rgba(252, 225, 56, 0.8);
 border-radius: 10px;
@@ -354,41 +386,32 @@ margin-top: 5px;
  }
  
  .contact-form input:focus, .contact-form textarea:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
+}
 
- }
+
+.contact-form button:hover {
+  color: #fce138;
+  background-color: #39a6b2;
+ border-radius: 10px;
+ width: 100%; 
+ border: none;
+ background: #fce138;
+ color: #024e76;
+ text-align: center;
+ padding: 15px 0;
+ font-size: 16px;
+
+}
+
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
+}
  
  
- .contact-form button:hover {
-   color: #fce138;
-   background-color: #39a6b2;
-  border-radius: 10px;
-  width: 100%; 
-  border: none;
-  background: #fce138;
-  color: #024e76;
-  text-align: center;
-  padding: 15px 0;
-  font-size: 16px;
 
- }
- 
- .contact-info {
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
- }
-
- .contact-info h3 {
-   color: #fce138;
-   font-size: 32px;
- }
-
- .contact-info p, .contact-info address {
-   margin: 20px 0;
-   line-height: 1.5;
-   font-size: 20px;
-   font-style: normal;
- }
 
  .contact-info a
 {
@@ -397,7 +420,68 @@ margin-top: 5px;
 
 /*reach out styles end */
 
+/* check box and radio wrapper/label styles */
 
+.checkbox-wrapper input, .radio-wrapper input {
+  opacity 0;
+}
+
+.checkbox-wrapper label, .radio-wrapper label {
+  position: relative;
+  left: 10px;
+  margin: 10px;
+  line-height: 1.6;
+}
+
+.checkbox-wrapper label::before, .radio-wrapper label::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid #024e76;
+  position: absolute;
+  top: -4px;
+  left: -30px;
+}
+
+.radio-wrapper label::before {
+  border-radius: 50%
+}
+
+.radio-wrapper label::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #024e76;
+  position: absolute;
+  left: -29px;
+  top: -3px;
+  background-image: radial-gradient(#39a6b2, #024e76);
+}
+
+.checkbox-wrapper label::after {
+  content: "";
+  height: 6px;
+  width: 14px;
+  border-left: 2px solid #024e76;
+  border-bottom: 2px solid #024e76;
+  position: absolute;
+  left: -26px;
+  top: 1px;
+  transform: rotate(-58deg);
+}
+
+
+/* utilities*/
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -419,8 +503,11 @@ margin-top: 5px;
     justify-content: center;
   }
 
-  
+  header nav ul li a {
+    font-size: 20px;
+  }
 
+  
   footer h2, footer div {
     text-align: center;
     width: 100%;
@@ -478,6 +565,9 @@ margin-top: 5px;
     flex: 100%;
   }
   
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */

@@ -19,7 +19,7 @@
 
   /* apply styles to header*/
 header {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("C:\Users\bhari\Desktop\projects\run-buddy-2\images\hero-bg.jpg");
     background-size: cover ;
     background-attachment: fixed;
     background-position: 80%;
@@ -430,7 +430,7 @@ margin-top: 5px;
 /* check box and radio wrapper/label styles */
 
 .checkbox-wrapper input, .radio-wrapper input {
-  opacity 0;
+  opacity: 0;
 }
 
 .checkbox-wrapper label, .radio-wrapper label {
